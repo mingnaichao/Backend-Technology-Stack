@@ -3,7 +3,7 @@
 # @date : 2019/11/24
 # @time : 18:46
 import tornado.web
-from ..models.user_model import UserModel
+from user_models.user_model import UserModel
 from tornado.escape import json_encode
 
 
@@ -32,7 +32,7 @@ class UserHandler(tornado.web.RequestHandler):
 
     def put(self, user_id):
         age = self.get_argument('age')
-        UserModel.update(int(user_id), age)
+        UserModel.update(int(user_id), int(age))
         resp = {'success': True}
         self.write(json_encode(resp))
 

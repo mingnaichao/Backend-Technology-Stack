@@ -3,7 +3,7 @@
 # @date : 2019/11/24
 # @time : 18:39
 import tornado.web
-from .handlers import user_handler
+from user_handlers import user_handler
 import tornado.ioloop
 import tornado.httpserver
 
