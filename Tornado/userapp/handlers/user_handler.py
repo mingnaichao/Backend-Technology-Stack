@@ -28,7 +28,7 @@ class UserHandler(tornado.web.RequestHandler):
             user = UserModel.get(int(user_id))
         except KeyError:
             return self.set_status(404)
-        self.write(json_encode(user_id))
+        self.write(json_encode(user))
 
     def put(self, user_id):
         age = self.get_argument('age')
