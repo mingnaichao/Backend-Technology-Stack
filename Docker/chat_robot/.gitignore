@@ -1,0 +1,80 @@
+#忽略.idea目录
+postman_env.local.json
+.vscode
+node_modules/
+*.tmp
+dev_docker/data
+celerybeat-schedule.db
+celerybeat.pid
+.idea
+.docker
+package.json
+gulpfile.js
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.rdb
+
+# C extensions
+*.so
+dump.rdb
+log/
+*.DS_*
+
+# Distribution / packaging
+.Python
+venv/
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+
+static/img/img_store/*
+static/*/.sass-cache/
+static/*/*.css.map
+static/#*
+
+tmp/**/*
+db/*.sqlite3
+public/system/**/*
+config/hcm_default.conf
+config/configmap
