@@ -1,2 +1,0 @@
-tornado==6.0.2
-tencentcloud-sdk-python==3.0.94
