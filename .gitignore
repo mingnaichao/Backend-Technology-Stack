@@ -80,3 +80,4 @@ config/hcm_default.conf
 config/configmap
 profiles/
 stt/
+.vscode/settings.json
